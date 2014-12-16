@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/rcrowley/goagain"
 	"log"
 	"net"
 	"syscall"
 	"time"
+
+	"gopkg.in/go-on/goagain.v1"
 )
 
 func init() {
